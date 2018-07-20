@@ -29,7 +29,7 @@ class SyncTelemetryServiceInstance(SyncInstanceUsingAnsible):
 
     provides = [TelemetryServiceInstance]
 
-    observes = TtelemetryServiceInstance
+    observes = TelemetryServiceInstance
 
     requested_interval = 0
 
